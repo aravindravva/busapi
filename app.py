@@ -2,7 +2,6 @@ from flask import Flask, request, redirect, url_for, flash, jsonify
 import numpy as np
 import pickle as p
 import pandas as pd
-import json
 
 
 app = Flask(__name__)
